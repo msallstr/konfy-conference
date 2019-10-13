@@ -1,0 +1,11 @@
+---
+micronaut:
+    application:
+        name: konfy-conference
+
+---
+consul:
+  client:
+    registration:
+      enabled: true
+    defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"

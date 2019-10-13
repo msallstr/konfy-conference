@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: konfy.conference
+---
+testFramework: junit
+sourceLanguage: java
